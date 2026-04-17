@@ -1,0 +1,27 @@
+# --- Pastas de Compilação (Onde deram seus erros de versão) ---
+[Bb]in/
+[Oo]bj/
+
+# --- Configurações do VS Code ---
+.vscode/
+.history/
+
+# --- Pacotes do NuGet ---
+*.nupkg
+/packages/
+
+# --- Banco de Dados e Logs ---
+*.log
+*.db
+*.sqlite
+
+# --- Arquivos de Sistema e Temporários ---
+.DS_Store
+Thumbs.db
+
+# --- IMPORTANTE: Não subir fotos enviadas para o sistema ---
+wwwroot/uploads/*
+!wwwroot/uploads/.gitkeep
+
+# --- Publicação ---
+publish/
