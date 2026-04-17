@@ -23,5 +23,7 @@ Thumbs.db
 wwwroot/uploads/*
 !wwwroot/uploads/.gitkeep
 
+appsettings.Development.json
 # --- Publicação ---
 publish/
+
